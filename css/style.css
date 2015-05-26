@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'AsapRegular';
+    font-style: normal;
+    font-weight: normal;
+    src:url('../fonts/Asap-Regular.ttf');
+}
+@font-face {
+    font-family: 'AsapBold';
+    font-style: normal;
+    font-weight: normal;
+    src:url('../fonts/Asap-Bold.ttf');
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-color: #fff;
+}
+::-webkit-input-placeholder {
+    color:    #ff0000;
+}
+:-moz-placeholder {
+    color:    #ff0000;
+}
+::-moz-placeholder {
+    color:    #ff0000;
+}
+:-ms-input-placeholder {
+    color:    #ff0000;
+}
+#header{
+    background-color: #fff; 
+    padding: 0px 15px;
+    height: 75px;
+}
+.headerLabelStyle{
+	color: #000;
+	font-family: "AsapBold";
+	font-size: 1.28em;	
+	cursor: pointer;
+}
+#upcomer_logo{
+	float: left;
+	position: relative;
+	top: 27%;
+	left: 35%;
+}
+#header_button{
+	position: relative;
+	top: 35%;
+	left: 12%;
+	float: left;
+}
+#social_buttons{
+	float: left;
+	position: relative;
+	top: 20%;
+	left: 60%;
+}
+#bgDiv{
+	width: 100%;
+	background-image: url("../images/bg1_repeat.png");
+	padding-top: 5%;
+}
+.bgTextDiv{
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+}
+.bgHeadingStyle{
+	font-family: "AsapBold";
+	font-size: 3.71em;
+	color: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+.bgParaDiv{
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 3%;
+}
+.bgParaStyle{
+	font-family: "AsapRegular";
+	font-size: 1.71em;
+	color: #fff;
+	padding: 0px;
+	margin: 5px;
+}
+.txtButtonDiv{
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+	/* float: left; */
+	height: 60px;
+}
+#userEmail{
+	/* float: left; */
+	width: 269px;
+	height: 57px;
+	font-family: "AsapRegular";
+	font-size: 1.45em;
+	-moz-border-radius-topleft: 30px; 
+    -webkit-border-top-left-radius: 30px; 
+    border-top-left-radius: 30px; 
+    -moz-border-radius-bottomleft: 30px; 
+    -webkit-border-bottom-left-radius: 30px; 
+    border-bottom-left-radius: 30px; 
+    border: 1px solid #fff; 
+    padding-left:20px;
+    opacity: 0.3;
+
+}
+#okButton{
+	/* float: left; */
+	width: 81px;
+	height: 61px;
+	font-family: "AsapRegular";
+	font-size: 1.45em;
+	padding: 17px;
+	color: #fff;
+	background-color: #2ecc71;
+	border: 0px;
+	-moz-border-radius-topright: 30px; 
+    -webkit-border-top-right-radius: 30px; 
+    border-top-right-radius: 30px; 
+    -moz-border-radius-bottomright: 30px; 
+    -webkit-border-bottom-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+	margin-left: -3px;
+	cursor: pointer;
+}
+
+.andrIosText{
+	font-family: "AsapRegular";
+	font-size: 1.14em;
+	color: #fff;
+	padding: 0px;
+	margin: 5px;
+}
+.andrIosTextDiv{
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 1%;
+}
+.downArrowDiv{
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 5%;
+}
+#infoDiv{
+	width: 100%;
+	height: 545px;
+}
+.personalizeText{
+	font-family: "AsapBold";
+	font-size: 2.57em;
+	color: #333;
+	padding: 0px;
+	margin: 5px;
+}
+#infoDiv{
+	padding-top: 7%;
+}
+.infoParaText{
+	font-family: "AsapRegular";
+	font-size: 1.42em;
+	color: #999;
+	padding: 0px;
+	margin: 5px;
+}
+.feedImgDiv{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+#contentDiv{
+	width: 77%;
+	height: 545px;
+	background-color: #f5f5f5;
+}
+.contetDataDiv{
+	padding-left: 20%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 15%;
+}
+.contentImgTextDiv{
+	float: left;
+}
+.contentInfoText{
+	font-family: "AsapRegular";
+	font-size: 1.42em;
+	color: #999;
+	padding: 0px;
+	margin: 5px;
+	float: left;
+}
+.allInOneTextDiv{
+	float: left;
+	width: 50%;
+	padding-left: 3%;
+	padding-top: 6%;
+}
+.allInOneText{
+	font-family: "AsapBold";
+	font-size: 2.57em;
+	color: #333;
+	padding: 0px;
+	margin: 5px;
+}
+.contentLastDataDiv{
+	padding-left: 10%;
+	width: 85%;
+	height: 100%;
+	text-align: center;
+}
+.beThOneText{
+	font-family: "AsapBold";
+	font-size: 2.57em;
+	color: #333;
+	padding: 0px;
+	margin: 5px;
+	float: right;
+	padding-right: 13%;
+}
+.contentLastInfoText{
+	font-family: "AsapRegular";
+	font-size: 1.42em;
+	color: #999;
+	padding: 0px;
+	margin: 5px;
+	float: right;
+	padding-right: 13%;
+}
+#contentLastDiv{
+	width: 100%;
+	height: 400px;
+	background-color: #f5f5f5;
+	float: left;
+}
+#bottonBgDiv{
+	float: left;
+	width: 100%;
+	height: 310px;
+	background-image: url("../images/bg2.png");
+	padding-top: 5%;
+}
+.bottomBgParaDiv{
+	width: 66%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 3%;
+}
+.bottomGreyDiv{
+    background-color: #333;
+    color: #fff;
+    padding: 35px 0px;
+    width: 100%;
+    height: 150px;
+    float: left;
+    font-size: 3.42em;
+    font-family: "AsapBold";
+    text-align: center;
+}
+.footer{
+    background-color: #fff;
+    padding: 20px 0px;
+    width: 100%;
+    float: left;
+}
+.emailTxt:-moz-placeholder
+{
+  color:    #FF0000;
+}
+
+.emailTxt::-moz-placeholder 
+{
+  color:    #FF0000;
+}
+
+.emailTxt:-ms-input-placeholder
+{
+  color:    #FF0000;
+}
+/*about*/
+#aboutHeader{
+    background-color: #fff; 
+    padding: 0px 15px;
+    height: 75px;
+    border: 1px solid #BBBDBD; 
+}
+.aboutFirstContentDiv{
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+}
+.aboutFirstTextDiv{
+	float: left;
+	width: 50%;
+	/* padding-left: 3%; */
+}
+.aboutFirstPara{
+	font-family: "AsapRegular";
+	font-size: 1.42em;
+	color: #999;
+	float: left;
+	text-align: left;
+}
+.whatWeDoText{
+	font-family: "AsapBold";
+	font-size: 2.57em;
+	color: #333;
+	padding: 0px;
+	margin: 5px;
+	float: left;
+}
+.aboutFirstImgDiv{
+	float: left;
+	width: 20%;
+	padding-top: 15px;
+	padding-left: 5%;
+}
+.aboutBgTextDiv{
+	width: 70%;
+	height: 300px;
+	margin: 0 auto;
+	padding-left: 11%;
+}
+#bookMainDiv{
+	width: 100%;
+	height: 500px;
+}
+#bookDivLeft{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #f5f5f5;
+}
+#bookDivRight{
+	width: 49.5%;
+	height: 100%;
+	float: left;
+	padding-left: 0.5%;
+}
+#rightGreyDiv{
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5; 
+	float: left;
+}
+.whiteContentLeftTopDiv{
+	width: 60%;
+	height: 25%;
+	background-color: #fff; 
+	border-radius: 15px;
+	margin-left: 30%;
+	margin-top: 15%;
+}
+.whiteContentLeftBottomDiv{
+	width: 60%;
+	height: 25%;
+	background-color: #fff; 
+	border-radius: 15px;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+.whiteContentRightTopDiv{
+	width: 60%;
+	height: 25%;
+	background-color: #fff; 
+	border-radius: 15px;
+	margin-left: 10%;
+	margin-top: 27%;
+}
+.whiteContentRightBottomDiv{
+	width: 60%;
+	height: 25%;
+	background-color: #fff; 
+	border-radius: 15px;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+.aboutBoxHeading{
+	color: #333;
+	font-family: "AsapBold";
+	font-size: 1.57em;	
+	padding-top: 5%;
+	padding-left: 5%;
+}
+.aboutBoxContent{
+	font-family: "AsapRegular";
+	font-size: 1.42em;
+	color: #999;
+	padding-left: 5%;
+}
+#aboutParaBg{
+	width: 100%;
+	height: 545px;
+	padding-top: 10%;
+}
+#helloButton{
+	/* float: left; */
+	width: 310px;
+	height: 60px;
+	font-family: "AsapRegular";
+	font-size: 1.45em;
+	padding: 17px;
+	color: #fff;
+	background-color: #2ecc71;
+	border: 0px;
+	-moz-border-radius-topright: 30px; 
+    -webkit-border-top-right-radius: 30px; 
+    border-top-right-radius: 30px; 
+    -moz-border-radius-bottomright: 30px; 
+    -webkit-border-bottom-right-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    -moz-border-radius-topleft: 30px; 
+    -webkit-border-top-left-radius: 30px; 
+    border-top-left-radius: 30px; 
+    -moz-border-radius-bottomleft: 30px; 
+    -webkit-border-bottom-left-radius: 30px; 
+    border-bottom-left-radius: 30px;  
+	margin-left: -3px;
+	cursor: pointer;
+}
+.handAreaDiv{
+	width: 5%;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+	padding-left: 18%;
+	padding-top: 1.5%;
+}
+#handImgDiv{
+	width: 5%;
+	float: left;
+}
+#greyInnerDiv{
+	height: 100%;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 1919px){
+	body{
+		font-size: 18px;
+}
+
+@media screen and (max-width: 980px){	
+	body {
+	    font-size: 8px;
+	}
+}
