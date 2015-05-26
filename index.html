@@ -3,6 +3,12 @@
 	<head>
 	  <title>Upcomer</title>  
 	  <link rel="stylesheet" href="css/style.css" />  
+	  <link rel="stylesheet" href="css/jcarousel.basic.css" /> 
+	  <script type="text/javascript" src="js/jquery.js"></script>
+	  <script type="text/javascript" src="js/jquery-scrollto.js"></script>
+	   <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	  <script type="text/javascript" src="js/jcarousel.basic.js"></script>
+	  <script type="text/javascript" src="js/script.js"></script>
 	</head>
 
 	<body>
@@ -41,7 +47,7 @@
 				<p class="andrIosText">Coming to Android and iOS first half of 2015</p>
 			</div>
 			<div class="downArrowDiv">
-				<img src="images/down-arrow.png">
+				<img id="downArrowImage" src="images/down-arrow.png">
 			</div>
 		</div>
 
@@ -89,6 +95,29 @@
 				</div>
 			</div>
 		</div>
+		<div id="galleryDiv" class="wrapper">
+			<div  class="bgGalleryDiv">
+            	<h1  class="personalizeText">Upcomer Gallery</h1>
+			</div>
+            <div  class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li><img src="images/img1.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="images/img2.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="images/img3.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="images/img4.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="images/img5.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="images/img6.jpg" width="600" height="400" alt=""></li>
+                    </ul>
+                </div>
+				<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+                <p class="jcarousel-pagination">
+                    
+                </p>
+            </div>
+        </div>
 		<div id="bottonBgDiv">
 			<div class="bottomBgParaDiv">
 				<p class="bgParaStyle">The first 5000 people to sign up will get an "early adopter priority" for 6 months</p>
