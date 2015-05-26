@@ -36,6 +36,7 @@ body {
     height: 75px;
 }
 .headerLabelStyle{
+	padding-left: 10px;
 	color: #000;
 	font-family: "AsapBold";
 	font-size: 1.28em;	
@@ -45,7 +46,7 @@ body {
 	float: left;
 	position: relative;
 	top: 27%;
-	left: 35%;
+	left: 25%;
 }
 #header_button{
 	position: relative;
@@ -57,7 +58,7 @@ body {
 	float: left;
 	position: relative;
 	top: 20%;
-	left: 60%;
+	left: 45%;
 }
 #bgDiv{
 	width: 100%;
@@ -65,7 +66,7 @@ body {
 	padding-top: 5%;
 }
 .bgTextDiv{
-	width: 55%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
